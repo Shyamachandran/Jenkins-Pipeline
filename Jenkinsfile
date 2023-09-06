@@ -10,12 +10,12 @@ pipeline {
                 success {
                     emailext subject: "Build Status - Success",
                             body: "The build was successful",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
                 failure {
                     emailext subject: "Build Status - Failure",
                             body: "The build has failed",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
             }
         }
@@ -29,12 +29,12 @@ pipeline {
                 success {
                     emailext subject: "Test Status - Success",
                             body: "All tests passed successfully",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
                 failure {
                     emailext subject: "Test Status - Failure",
                             body: "Tests have failed",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
             }
         }
@@ -47,12 +47,12 @@ pipeline {
                 success {
                     emailext subject: "Code Analysis Status - Success",
                             body: "Code analysis passed",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
                 failure {
                     emailext subject: "Code Analysis Status - Failure",
                             body: "Code analysis failed",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
             }
         }
@@ -65,12 +65,12 @@ pipeline {
                 success {
                     emailext subject: "Security Scan Status - Success",
                             body: "Security scan passed",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
                 failure {
                     emailext subject: "Security Scan Status - Failure",
                             body: "Security scan failed",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
             }
         }
@@ -89,12 +89,12 @@ pipeline {
                 success {
                     emailext subject: "Staging Test Status - Success",
                             body: "Staging integration tests passed",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
                 failure {
                     emailext subject: "Staging Test Status - Failure",
                             body: "Staging integration tests failed",
-                            to: "s223178782@deakin.edu.au"
+                            to: "shyama.nait@gmail.com"
                 }
             }
         }
